@@ -39,8 +39,7 @@ function updateDots() {
         dot.classList.toggle('active', i === currentImageIndex);
     });
 }
-
-// Initialize the first image to show
+ 
 window.onload = function() {
    
     showImage(0);

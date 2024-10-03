@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+   <div class="firstContainer">
+      <div class="header">
+          <div class="start">
+              <img src="images/Group.png" class="logo"/>
+              <span class="mainHeading">Pop Rock Crystal</span>
+          </div>
+          <div class="end">
+            <div class="endLinks">
+                <a>Home</a>
+                <a>Shop</a>
+                <a>About Us</a>
+                <a>Help</a>
+            </div>
+            <div class="endImgs">
+                <p class="img00">oo</p>
+                <img src="./images/ion_basket.png" class="basketImg"/>
+            </div>
+        </div>
+      </div>
+      <div class="middle">
+          <div class="left">
+              <p class="mainPara a">Welcome to</p>
+              <h1 class="mainPara b">Pop Rock Crystal Shop!</h1>
+              <p class="info">Here you will find unique phone accessories, crystals,<br/> jewelry and more. Free shipping inside the U.S. and our <br/> phone grips come with a limited warranty. Enjoy!            </p>
+              <div class="shopNowButtons">
+                  <button class="shopNow emerg">SHOP NOW</button>
+                  <p>about us</p>
+              </div>
+          
+            </div>
+          <div class="right">
+               <div class="carouselContainer">
+                  <img src="./images/Без имени-1 1.png" class="carouselImg" id="carouselImg"/>
+                  <hr class="carouselHr">
+                  <div class="carouselPriceCont">
+                    <p class="imgTitle" id="imgTitle">CRYSTAL AGATE PHONE GRIP</p>
+                    <p class="cardPrice" id="cardPrice">- 18.99$</p>
+                  </div>
+                  
+                  <p class="newLot">New lot</p>
+               </div>
+               <div class="image-switch-container">
+                <button class="arrow" onclick="prevImage()"><i class="fa-solid fa-arrow-left"></i></button>
+                
+                <div class="image-switch">
+                  <span class="dot" onclick="showImage(0)"></span>
+                  <span class="dot" onclick="showImage(1)"></span>
+                  <span class="dot" onclick="showImage(2)"></span>
+                  <span class="dot" onclick="showImage(3)"></span>
+                  <span class="dot" onclick="showImage(4)"></span>
+                  <span class="dot" onclick="showImage(5)"></span>
+                  <span class="dot" onclick="showImage(6)"></span>
+
+                </div>
+                
+                <button class="arrow" onclick="nextImage()"><i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+          </div>
+      </div> 
+      <div class="scrollContainer">
+        <img src="./images/Group 102.png" class="scrollImg"/>
+        <p>scroll down</p>
+      </div>
+      <img src="./images/Vector 1.png" class="vector1"/>
+      
+   </div>
+   <hr class="fendHr"/>
+   <div class="secondContainer">
+        <h1 class="productsHeader">All Products</h1>
+        <hr class="allProductsHr"/>
+        <div class="dropdowns">
+            <div class="firstDrop">
+              <label for="dropdown" class="dropdown">Filter:</label>
+              <div class="custom-select">
+                 <select id="dropdown" name="dropdown">
+                     <option value="link1">All Products</option>
+                     <option value="link2">Link 2</option>
+                     <option value="link3">Link 3</option>
+                 </select>
+              </div>
+            </div>
+            <div class="secondDrop">
+               <label for="dropdown" class="dropdown">Sort:</label>
+                <div class="custom-select">
+                  <select id="dropdown" name="dropdown">
+                      <option value="link1">Best Selling</option>
+                     <option value="link2">Link 2</option>
+                     <option value="link3">Link 3</option>
+                  </select>
+               </div>
+            </div>
+
+        </div>
+        <div class="cardsContainer">
+              <div class="card">
+                   <img src="./images/Без имени-1 1.png" class="cardImage"/>
+                   <p class="cardTitle">CRYSTAL AGATE PHONE GRIP</p>
+                   <p class="cardPrice">18.99$</p>
+                   <button class="buyNow">BUY NOW</button>
+              </div>
+              <div class="card">
+                <img src="./images/Без имени-1 1.png" class="cardImage"/>
+                <p class="cardTitle">CRYSTAL AGATE PHONE GRIP</p>
+                <p class="cardPrice">18.99$</p>
+                <button class="buyNow">BUY NOW</button>
+                  </div>
+              <div class="card">
+                <img src="./images/Без имени-1 1.png" class="cardImage"/>
+                <p class="cardTitle">CRYSTAL AGATE PHONE GRIP</p>
+                <p class="cardPrice">18.99$</p>
+                <button class="buyNow">BUY NOW</button>
+              </div>
+             <div class="card">
+                <img src="./images/Без имени-1 1.png" class="cardImage"/>
+                <p class="cardTitle">CRYSTAL AGATE PHONE GRIP</p>
+                <p class="cardPrice">18.99$</p>
+                <button class="buyNow">BUY NOW</button>
+            </div>
+            <div class="card">
+              <img src="./images/Без имени-1 1.png" class="cardImage"/>
+              <p class="cardTitle">CRYSTAL AGATE PHONE GRIP</p>
+              <p class="cardPrice">18.99$</p>
+              <button class="buyNow">BUY NOW</button>
+         </div>
+         <div class="card">
+           <img src="./images/Без имени-1 1.png" class="cardImage"/>
+           <p class="cardTitle">CRYSTAL AGATE PHONE GRIP</p>
+           <p class="cardPrice">18.99$</p>
+           <button class="buyNow">BUY NOW</button>
+             </div>
+         <div class="card">
+           <img src="./images/Без имени-1 1.png" class="cardImage"/>
+           <p class="cardTitle">CRYSTAL AGATE PHONE GRIP</p>
+           <p class="cardPrice">18.99$</p>
+           <button class="buyNow">BUY NOW</button>
+         </div>
+        <div class="card">
+           <img src="./images/Без имени-1 1.png" class="cardImage"/>
+           <p class="cardTitle">CRYSTAL AGATE PHONE GRIP</p>
+           <p class="cardPrice">18.99$</p>
+           <button class="buyNow">BUY NOW</button>
+       </div>
+        </div>
+        <div class="viewAllCont">
+             <button class="viewAll">View All</button>
+        </div>
+   </div>
+   <div class="thirdContainer">
+     <img src="./images/Vector 2 (4).png" class="finaleVector"/>
+      
+       <div class="sideA">
+             <h1 class="topHeaderpart">BEST PRICE</h1>
+             <h1 class="bottomHeaderPart">Agate Phone Grip</h1>
+             <div class="pricesContainer">
+                    <p class="prevPrice">44.50$</p>
+                    <h1>19.50$</h1>
+             </div>
+             <p class="lastPara">These Pop Rock Crystal grip tops can be swapped with <br/>other tops depending on your mood, outfit, nails,<br/> phone case, holiday, etc.! Just gently squeeze the sides<br/> to remove and swap out with another color or design!            </p>
+             <button>BUY NOW</button>
+        </div>
+       <div class="sideB">
+      <div class="outerCircle">
+        <img src="./images/Ellipse 9.png" class="ellipse"/>
+        <div class="middleCircle">
+          <div class="innerCircle">
+            <img src="./images/Без имени-1 1.png" class="finaleImg"/>
+            
+         </div>
+      </div>
+      </div> 
+     </div>
+           
+       </div>
+   <div class="extra"></div>
+   <script src="script.js"></script>
+</body>
+</html>

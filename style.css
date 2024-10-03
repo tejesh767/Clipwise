@@ -412,9 +412,9 @@ select{
    
   }
   .middleCircle {
-    width: 540px; /* Adjusted size */
+    width: 540px;  
     height: 540px;
-    padding: 30px; /* Padding added */
+    padding: 30px;  
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -426,7 +426,7 @@ select{
   
   .innerCircle {
      
-    padding: 70px; /* Padding added */
+    padding: 70px;  
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -437,7 +437,7 @@ select{
   }
   
   .finaleImg {
-    height: 200px; /* Reduced size to fit with padding */
+    height: 200px;  
     width: 200px;
     border-radius: 50%;
   }
